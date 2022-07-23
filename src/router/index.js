@@ -6,6 +6,11 @@ const routes = [
         name: 'Home',
         component: Home,
     }
+    // {
+    //     path: 'tailwind',
+    //     name: 'Tailwind',
+    //     component: Tailwind,
+    // },
 ];
 const router = createRouter({
     history: createWebHashHistory(),
