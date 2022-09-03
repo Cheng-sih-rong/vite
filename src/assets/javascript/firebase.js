@@ -9,6 +9,7 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
     apiKey: "AIzaSyA7xkMDZ39AJmjilsUM1RZ_4wv-V4nTHjM",
     authDomain: "viteproject-8a655.firebaseapp.com",
+    databaseURL: "https://viteproject-8a655-default-rtdb.firebaseio.com",
     projectId: "viteproject-8a655",
     storageBucket: "viteproject-8a655.appspot.com",
     messagingSenderId: "691935892531",
@@ -22,5 +23,6 @@ const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const db = getFirestore(app);
 const storage = getStorage(app);
+function 
 
 export { auth, db, storage };
